@@ -16,6 +16,8 @@ public class Activity {
 		this.name = name;
 	}
 	
+	//blalalalalala
+	
 	public Activity(String name) {
 		super();
 		this.name = name;
