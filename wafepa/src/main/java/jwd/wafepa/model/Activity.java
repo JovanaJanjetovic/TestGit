@@ -5,16 +5,17 @@ public class Activity {
 	private Long id;
 	private String name;
 	
-	
-	public Activity() {
-		super();
-	}
-
 	public Activity(Long id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
 	}
+	
+	public Activity() {
+		super();
+	}
+
+	
 	
 	public Activity(String name) {
 		super();
