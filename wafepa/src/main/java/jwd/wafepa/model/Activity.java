@@ -4,19 +4,10 @@ public class Activity {
 	
 	private Long id;
 	private String name;
-	
-	public Activity(Long id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
-	
-	
-	
+		
 	public Activity() {
 		super();
 	}
-
 	
 	//111111111111
 	//blalalalalala
@@ -32,6 +23,12 @@ public class Activity {
 		//8888
 		//9999
 
+	}
+	
+	public Activity(Long id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
 	}
 
 	public Long getId() {
