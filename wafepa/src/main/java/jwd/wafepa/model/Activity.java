@@ -24,7 +24,7 @@ public class Activity {
 	public Activity(String name) {
 		super();
 		this.name = name;
-		this.name = name;
+		//3333
 		//4444
 		//5555
 		//66666
