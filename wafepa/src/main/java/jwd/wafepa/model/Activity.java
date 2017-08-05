@@ -23,11 +23,12 @@ public class Activity {
 	
 	public Activity(String name) {
 		super();
+		//7777
 		this.name = name;
-		this.name = name + "1";
+		//3333
 		//4444
 		//5555
-		//6666
+		
 	}
 
 	public Long getId() {
