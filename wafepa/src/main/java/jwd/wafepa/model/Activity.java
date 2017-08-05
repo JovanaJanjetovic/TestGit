@@ -24,6 +24,7 @@ public class Activity {
 	public Activity(String name) {
 		super();
 		this.name = name;
+		//3333
 	}
 
 	public Long getId() {
