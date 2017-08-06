@@ -7,6 +7,13 @@ public class Activity {
 	private String something;
 	private boolean active;
 		
+	//14
+	public Activity(Long id) {
+		super();
+		this.id = id;
+		
+	}
+
 	//13
 	public Activity(String name, String something, boolean active) {
 		super();
