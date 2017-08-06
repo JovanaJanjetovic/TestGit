@@ -31,11 +31,10 @@ public class Activity {
 		
 	}
 
-    //17
-	public Activity(boolean active, Long id) {
-		this.active = active;
+    	//15
+	public Activity (Long id, String something) {
 		this.id = id;
-
+		this.something = something;
 	}
 	
 	//16
@@ -43,6 +42,13 @@ public class Activity {
 		super();
 		this.something = something;
 		this.name = name;
+
+	}
+	
+	//17
+	public Activity(boolean active, Long id) {
+		this.active = active;
+		this.id = id;
 
 	}
 
