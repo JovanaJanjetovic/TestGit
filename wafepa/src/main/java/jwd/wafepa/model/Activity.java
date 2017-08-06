@@ -31,12 +31,22 @@ public class Activity {
 		
 	}
 
+
 	//17
 	public Activity(boolean active, Long id) {
-		super();
 		this.active = active;
 		this.id = id;
+
 	}
+
+	//16
+	public Activity(String something, String name) {
+		super();
+		this.something = something;
+		this.name = name;
+
+	}
+
 
 	public Activity() {
 		super();
