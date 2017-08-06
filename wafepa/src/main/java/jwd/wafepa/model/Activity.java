@@ -31,11 +31,13 @@ public class Activity {
 		
 	}
 
-	//15
-	public Activity(boolean active) {
+	//16
+	public Activity(String something, String name) {
 		super();
-		this.active = active;
+		this.something = something;
+		this.name = name;
 	}
+
 
 	public Activity() {
 		super();
