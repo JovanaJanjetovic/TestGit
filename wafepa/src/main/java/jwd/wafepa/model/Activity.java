@@ -37,7 +37,7 @@ public class Activity {
 		this.id = id;
 
 	}
-
+	
 	//16
 	public Activity(String something, String name) {
 		super();
@@ -45,7 +45,6 @@ public class Activity {
 		this.name = name;
 
 	}
-
 
 	public Activity() {
 		super();
