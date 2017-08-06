@@ -5,6 +5,7 @@ public class Activity {
 	private Long id;
 	private String name;
 	private String something;
+	private boolean active;
 		
 	public Activity() {
 		super();
@@ -24,6 +25,7 @@ public class Activity {
 		//8888
 		//9999
 		//10
+		//11
 
 	}
 	
@@ -52,6 +54,16 @@ public class Activity {
 
 	public void setSomething(String something) {
 		this.something = something;
+	}
+	
+	
+
+	public boolean isActive() {
+		return active;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
 	}
 	
 	
