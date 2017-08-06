@@ -30,12 +30,9 @@ public class Activity {
 		this.id = id;
 		
 	}
-
-    	//15
-	public Activity (Long id, String something) {
-		this.id = id;
-		this.something = something;
-	}
+	
+	//15
+	//dopuna
 	
 	//16
 	public Activity(String something, String name) {
