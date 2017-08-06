@@ -6,15 +6,17 @@ public class Activity {
 	private String name;
 	private String something;
 	private boolean active;
-		
-	//14
-	public Activity(Long id) {
+
+	// 12
+	public Activity(Long id, String name, String something, boolean active) {
 		super();
 		this.id = id;
-		
+		this.name = name;
+		this.something = something;
+		this.active = active;
 	}
 
-	//13
+	// 13
 	public Activity(String name, String something, boolean active) {
 		super();
 		this.name = name;
@@ -22,12 +24,16 @@ public class Activity {
 		this.active = active;
 	}
 
-	//12
-	public Activity(Long id, String name, String something, boolean active) {
+	//14
+	public Activity(Long id) {
 		super();
 		this.id = id;
-		this.name = name;
-		this.something = something;
+		
+	}
+
+	//15
+	public Activity(boolean active) {
+		super();
 		this.active = active;
 	}
 
