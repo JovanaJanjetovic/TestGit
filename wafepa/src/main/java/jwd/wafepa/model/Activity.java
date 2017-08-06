@@ -31,10 +31,11 @@ public class Activity {
 		
 	}
 
-	//15
-	public Activity(boolean active) {
+	//17
+	public Activity(boolean active, Long id) {
 		super();
 		this.active = active;
+		this.id = id;
 	}
 
 	public Activity() {
