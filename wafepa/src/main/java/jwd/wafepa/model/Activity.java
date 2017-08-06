@@ -11,6 +11,7 @@ public class Activity {
 	public Activity(Long id) {
 		super();
 		this.id = id;
+		
 	}
 
 	//13
