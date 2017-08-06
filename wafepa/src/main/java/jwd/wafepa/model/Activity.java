@@ -4,6 +4,7 @@ public class Activity {
 	
 	private Long id;
 	private String name;
+	private String something;
 		
 	public Activity() {
 		super();
@@ -22,6 +23,7 @@ public class Activity {
 		//7777
 		//8888
 		//9999
+		//10
 
 	}
 	
@@ -43,6 +45,16 @@ public class Activity {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public String getSomething() {
+		return something;
+	}
+
+	public void setSomething(String something) {
+		this.something = something;
+	}
+	
+	
 	
 	
 	
