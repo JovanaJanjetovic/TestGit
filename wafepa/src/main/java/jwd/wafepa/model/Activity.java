@@ -31,8 +31,7 @@ public class Activity {
 		
 	}
 
-
-	//17
+    //17
 	public Activity(boolean active, Long id) {
 		this.active = active;
 		this.id = id;
